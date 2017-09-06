@@ -1,0 +1,27 @@
+{
+  "name": "habari2jekyll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard '{src,test}/**/*.js'",
+    "test": "ava --timeout=30s test/index.js"
+  },
+  "keywords": [],
+  "author": "Cory Reed <swashcap@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.1",
+    "moment": "^2.18.1",
+    "pg": "^7.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "execa": "^0.8.0",
+    "lodash.zip": "^4.2.0",
+    "promise-retry": "^1.1.1",
+    "standard": "^10.0.3"
+  },
+  "bin": "src/bin.js"
+}
